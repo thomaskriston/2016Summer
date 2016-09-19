@@ -12,6 +12,9 @@
 		321938F11D49208500FCB48E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321938EF1D49208500FCB48E /* Main.storyboard */; };
 		321938F31D49208500FCB48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321938F21D49208500FCB48E /* Assets.xcassets */; };
 		321938F61D49208500FCB48E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321938F41D49208500FCB48E /* LaunchScreen.storyboard */; };
+		321938FE1D49281700FCB48E /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321938FD1D49281700FCB48E /* Pokemon.swift */; };
+		321939001D492FE600FCB48E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321938FF1D492FE600FCB48E /* DetailViewController.swift */; };
+		321939021D49578300FCB48E /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321939011D49578300FCB48E /* FavouritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		321938F21D49208500FCB48E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		321938F51D49208500FCB48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		321938F71D49208500FCB48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321938FD1D49281700FCB48E /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		321938FF1D492FE600FCB48E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		321939011D49578300FCB48E /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				321938EB1D49208500FCB48E /* AppDelegate.swift */,
 				321938ED1D49208500FCB48E /* ViewController.swift */,
+				321938FD1D49281700FCB48E /* Pokemon.swift */,
 				321938EF1D49208500FCB48E /* Main.storyboard */,
+				321939011D49578300FCB48E /* FavouritesViewController.swift */,
+				321938FF1D492FE600FCB48E /* DetailViewController.swift */,
 				321938F21D49208500FCB48E /* Assets.xcassets */,
 				321938F41D49208500FCB48E /* LaunchScreen.storyboard */,
 				321938F71D49208500FCB48E /* Info.plist */,
@@ -137,6 +146,9 @@
 			files = (
 				321938EE1D49208500FCB48E /* ViewController.swift in Sources */,
 				321938EC1D49208500FCB48E /* AppDelegate.swift in Sources */,
+				321938FE1D49281700FCB48E /* Pokemon.swift in Sources */,
+				321939021D49578300FCB48E /* FavouritesViewController.swift in Sources */,
+				321939001D492FE600FCB48E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
